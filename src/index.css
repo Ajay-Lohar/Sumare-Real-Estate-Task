@@ -1,0 +1,11 @@
+@import "tailwindcss";
+body{
+    font-family: montserrat !important;
+    background-color: rgb(249, 249, 249);
+}
+.b-image{
+    background-image: url("src/images/background-complete 1.png");
+    height: 100vh;
+    width:auto !important;
+    position: relative;
+}
