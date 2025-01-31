@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         
       </header>
-      <div className='absolute h-150 flex flex-col justify-center items-center gap-5'>
+      <div className='absolute h-[120vh] flex flex-col justify-center items-center gap-5'>
         <div className='text-5xl font-medium tracking-tight text-center  '>Elevate <span className='text-blue-500 font-bold'>Real Estate Success</span> with <br />
         Osumare's Digital Expertise</div>
         <p className='text-xl'>Tailored Solutions for Thriving in the Digital Real Estate Landscape</p>
@@ -22,14 +22,13 @@ const Header = () => {
 
       </div>
        
-      <div className='w-full  relative flex justify-end  py-25'>
+      <div className='w-full  relative flex justify-end  items-start'>
       <img src="src\images\Ellipse 190.png" alt="" />
       </div>
       
-     
     </div>
     <div className=''>
-      <div className='w-full pt-25 flex justify-center items-center'>
+      <div className='w-full   flex justify-center items-center'>
         <img className=' absolute w-[796px] h-[538px]' src="src\images\Header image.png" alt="" />
       </div>
     </div>
